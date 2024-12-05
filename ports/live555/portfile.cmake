@@ -2,7 +2,7 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 string(REPLACE "-" "." format_version ${VERSION})
 vcpkg_download_distfile(ARCHIVE
-    URLS "http://live555.com/liveMedia/public/live.${format_version}.tar.gz"
+    URLS "https://download.videolan.org/pub/contrib/live555/live.${format_version}.tar.gz"
     FILENAME "live.${format_version}.tar.gz"
     SHA512 88325E4B87F1ED8DE16AF08489A1B856E0526C627D5F590ED7060D8899A91EC9D9947A5FB0C4714A3ACB5F5F37A2EB5C63F59739A75DCBEA70A79263F7EB56AA
 )
